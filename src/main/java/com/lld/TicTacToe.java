@@ -17,7 +17,7 @@ import lombok.Setter;
  * <li>Game start with multiple players support</li>
  * <li>Multiple symbol support</li>
  * <li>Winner announce</li>
- * <li>Get ext player turn</li>
+ * <li>Get next player turn</li>
  * <li>Variable board size support</li>
  * <li>Update player stats - i.e. Win/Loss/Matches Played</li>
  *

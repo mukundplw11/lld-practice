@@ -10,6 +10,23 @@ import java.util.Random;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ *
+ * Functionalities Implemented:
+ *
+ * <li>Game start with multiple players support</li>
+ * <li>Rankings announce</li>
+ * <li>Get next player turn</li>
+ * <li>Variable board size support</li>
+ * <li>Two types of cell support - Snake & Ladder</li>
+ *
+ * <br>
+ * Functionalities that could be added:
+ * <li>Undo support by storing moves of player</li>
+ * <li>Could extend Cell to interfaces to make it extensible for different types of cells</li>
+ * <li>Player ratings</li>
+ * <li>Game Tournaments</li>
+ */
 public class SnakeAndLadder {
 
 
