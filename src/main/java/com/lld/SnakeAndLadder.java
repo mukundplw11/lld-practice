@@ -30,7 +30,7 @@ import lombok.Setter;
 public class SnakeAndLadder {
 
 
-    public class Game {
+    class Game {
         private final Board board;
 
         private final Dice dice;
@@ -87,7 +87,7 @@ public class SnakeAndLadder {
 
     @Getter
     @Setter
-    public class Board {
+    class Board {
 
         /* Could add List of Cells -> Cells will have 3 implementation -> Normal, Snake & Ladder Cell */
         private Integer totalCells;
@@ -118,7 +118,7 @@ public class SnakeAndLadder {
 
     }
 
-    public class Dice {
+    class Dice {
 
         private final Random random = new Random();
 
@@ -132,7 +132,7 @@ public class SnakeAndLadder {
 
     @Getter
     @Setter
-    public class Player {
+    class Player {
 
         private String aliasName;
 
@@ -140,7 +140,7 @@ public class SnakeAndLadder {
 
     }
 
-    public enum GameStatus {
+    enum GameStatus {
         ONGOING,
         FINISHED
     }

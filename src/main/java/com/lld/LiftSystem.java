@@ -9,15 +9,20 @@ import java.util.List;
  * Users - Request for lift for up/down and select floor in lift
  * Lift - Handles user pickup logic, display current floor &
  */
-public class Lift {
+public class LiftSystem {
 
-    public enum LiftStatus {
+
+    public static void main(String[] args) {
+
+    }
+
+    enum LiftStatus {
         UP,
         DOWN,
         IDLE
     }
 
-    public class ElevatorController {
+    class ElevatorController {
         private Elevator elevator;
 
         private Integer minFloor;
@@ -25,7 +30,7 @@ public class Lift {
         private Integer maxFloor;
     }
 
-    public class ElevatorSystem {
+    class ElevatorSystem {
 
         private Integer totalFloors;
 
@@ -37,7 +42,7 @@ public class Lift {
 
     }
 
-    public class Elevator {
+    class Elevator {
         private Integer id;
 
         private Integer currentFloor;
@@ -49,15 +54,15 @@ public class Lift {
         private Boolean doorOpen;
     }
 
-    public class Panel {
+    class Panel {
 
     }
 
-    public class ExternalPanel extends Panel {
+    class ExternalPanel extends Panel {
 
     }
 
-    public class InternalPanel extends Panel {
+    class InternalPanel extends Panel {
 
     }
 }

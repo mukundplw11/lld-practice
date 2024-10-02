@@ -35,7 +35,7 @@ public class TicTacToe {
         return new Game(gameBoard, players);
     }
 
-    public class Game {
+    class Game {
 
         private final String id;
 
@@ -103,7 +103,7 @@ public class TicTacToe {
 
     @Getter
     @Setter
-    public class Player {
+    class Player {
 
         private final String id;
 
@@ -127,7 +127,7 @@ public class TicTacToe {
 
     @Getter
     @Setter
-    public class GameBoard {
+    class GameBoard {
 
         /**
          * Stores value at each board cell
@@ -223,7 +223,7 @@ public class TicTacToe {
     }
 
     @Getter
-    public class SymbolCounterDTO {
+    class SymbolCounterDTO {
         private final MarkingSymbol symbol;
         private Integer count;
 
@@ -244,18 +244,18 @@ public class TicTacToe {
         }
     }
 
-    public enum GameStatus {
+    enum GameStatus {
         ONGOING,
         WIN,
         DRAW
     }
 
-    public enum MarkingSymbol {
+    enum MarkingSymbol {
         CROSS,
         ZERO
     }
 
-    public static class Utils {
+    static class Utils {
 
         public static String generateId() {
             return UUID.randomUUID().toString().replace("-", "");
