@@ -1,4 +1,4 @@
-package com.lld;
+package com.lld.snakeladder;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

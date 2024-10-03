@@ -1,4 +1,4 @@
-package com.lld;
+package com.lld.tictactoe;
 
 import java.util.Deque;
 import java.util.HashMap;
